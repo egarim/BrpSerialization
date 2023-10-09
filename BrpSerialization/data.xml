@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<star:ProcessPartsInvoice xmlns:star="http://www.starstandard.org/STAR/5" releaseID="5.10.4"
+    languageCode="en-US">
+	<star:ApplicationArea>
+		<star:Sender>
+			<star:ReferenceID>40df13547e0e4b958963d0057f09310e5b45</star:ReferenceID>
+			<star:AuthorizationID>5b45289116364bdfae686e9e5d3c793e</star:AuthorizationID>
+			<star:CreatorNameCode>DX1 Powersports</star:CreatorNameCode>
+			<star:SenderNameCode>21</star:SenderNameCode>
+			<star:DealerNumberID>1863497562</star:DealerNumberID>
+			<star:SystemVersion>12</star:SystemVersion>
+			<star:ServiceID>ProcessPartsInvoice</star:ServiceID>
+		</star:Sender>
+		<star:CreationDateTime>2017-02-02T01:01:01-02:02</star:CreationDateTime>
+		<star:BODID>a02d5beca7a943c3b1d929d4b65d3b4e1324</star:BODID>
+		<star:Destination>
+			<star:DestinationNameCode>BD</star:DestinationNameCode>
+		</star:Destination>
+	</star:ApplicationArea>
+	<star:ProcessPartsInvoiceDataArea>
+		<star:Process/>
+		<star:PartsInvoice>
+			<star:PartsInvoiceHeader>
+				<star:DocumentIdentificationGroup>
+					<star:DocumentIdentification>
+						<star:DocumentID>ProcessPartsInvoice</star:DocumentID>
+						<star:AgencyRoleCode>Dealer</star:AgencyRoleCode>
+					</star:DocumentIdentification>
+				</star:DocumentIdentificationGroup>
+				<star:TransactionTypeCode>Initial</star:TransactionTypeCode>
+				<star:ReferenceNumberString>59847</star:ReferenceNumberString>
+				<star:TotalPartPiecesNumeric>1</star:TotalPartPiecesNumeric>
+				<star:SubtotalBeforeDiscountsAmount currencyID="CAD"
+                    >100</star:SubtotalBeforeDiscountsAmount>
+				<star:TotalDiscountAmount currencyID="CAD">25</star:TotalDiscountAmount>
+				<star:SubtotalIncludingDiscount currencyID="CAD">75</star:SubtotalIncludingDiscount>
+				<star:Charges>
+					<star:DeliveryChargeAmount currencyID="CAD">0</star:DeliveryChargeAmount>
+					<star:HandlingRestockChargeAmount currencyID="CAD"
+                        >0</star:HandlingRestockChargeAmount>
+					<star:ServiceFreightChargeAmount currencyID="CAD"
+                        >0</star:ServiceFreightChargeAmount>
+				</star:Charges>
+				<star:Tax>
+					<star:TaxTypeCode>Total</star:TaxTypeCode>
+					<star:TaxAmount currencyID="CAD">3.75</star:TaxAmount>
+					<star:TaxRatePercent>0.05000000</star:TaxRatePercent>
+					<star:TotalTaxableAmount currencyID="CAD">75</star:TotalTaxableAmount>
+				</star:Tax>
+				<star:TotalAmount currencyID="CAD">78.75</star:TotalAmount>
+				<star:ProcessCode>Retail</star:ProcessCode>
+				<star:SoldToParty>
+					<star:SpecifiedOrganization>
+						<star:CompanyName>Super Snow toys</star:CompanyName>
+						<star:PrimaryContact>
+							<star:TypeCode>Fleet Manager</star:TypeCode>
+							<star:SpecifiedPerson>
+								<star:GivenName>Tim</star:GivenName>
+								<star:MiddleName>Roberts</star:MiddleName>
+								<star:FamilyName>McCoy</star:FamilyName>
+								<star:TelephoneCommunication>
+									<star:ChannelCode>telephone</star:ChannelCode>
+									<star:LocalNumber>5038799990</star:LocalNumber>
+									<star:AreaNumberCode>503</star:AreaNumberCode>
+								</star:TelephoneCommunication>
+								<star:FaxCommunication>
+									<star:ChannelCode>fax</star:ChannelCode>
+									<star:LocalNumber>5038799991</star:LocalNumber>
+									<star:AreaNumberCode>503</star:AreaNumberCode>
+								</star:FaxCommunication>
+								<star:URICommunication>
+									<star:URIID>tr@supersnowtoys.com</star:URIID>
+									<star:ChannelCode>email</star:ChannelCode>
+								</star:URICommunication>
+							</star:SpecifiedPerson>
+							<star:PostalAddress>
+								<star:LineOne>1700 Lesley Blvd</star:LineOne>
+								<star:LineTwo>Apartment B</star:LineTwo>
+								<star:CityName>Westfield</star:CityName>
+								<star:CountryID>US</star:CountryID>
+								<star:Postcode>88980</star:Postcode>
+								<star:StateOrProvinceCountrySub-DivisionID>WA</star:StateOrProvinceCountrySub-DivisionID>
+							</star:PostalAddress>
+						</star:PrimaryContact>
+					</star:SpecifiedOrganization>
+				</star:SoldToParty>
+				<star:DealerOrderNumberString>78945663</star:DealerOrderNumberString>
+				<star:PartsOrderReceivedDateTime>2017-03-14T13:37:37Z</star:PartsOrderReceivedDateTime>
+				<star:SoldByParty>
+					<star:SpecifiedPerson>
+						<star:ID>56789123569</star:ID>
+						<star:GivenName>Bob</star:GivenName>
+						<star:FamilyName>Thompson</star:FamilyName>
+					</star:SpecifiedPerson>
+				</star:SoldByParty>
+			</star:PartsInvoiceHeader>
+			<star:PartsInvoiceLine>
+				<star:LineNumberString>1</star:LineNumberString>
+				<star:PartsProductItem>
+					<star:PartItemDescription>Jacket</star:PartItemDescription>
+					<star:ItemIdentificationGroup>
+						<star:ItemIdentification>
+							<star:ItemID>58336</star:ItemID>
+						</star:ItemIdentification>
+					</star:ItemIdentificationGroup>
+				</star:PartsProductItem>
+				<star:OrderQuantity unitCode="ea">25</star:OrderQuantity>
+				<star:Price>
+					<star:PriceCode>Sold</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">75</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Price>
+					<star:PriceCode>Suggested Retail Price</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">100</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Price>
+					<star:PriceCode>Cost</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">50</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Charges>
+					<star:DeliveryChargeAmount currencyID="CAD">0</star:DeliveryChargeAmount>
+					<star:HandlingRestockChargeAmount currencyID="CAD"
+                        >0</star:HandlingRestockChargeAmount>
+					<star:ServiceFreightChargeAmount currencyID="CAD"
+                        >0</star:ServiceFreightChargeAmount>
+				</star:Charges>
+				<star:Tax>
+					<star:TaxTypeCode>Sales</star:TaxTypeCode>
+					<star:TaxAmount currencyID="CAD">3.75</star:TaxAmount>
+					<star:TaxRatePercent>0.05000000</star:TaxRatePercent>
+					<star:TotalTaxableAmount currencyID="CAD">75</star:TotalTaxableAmount>
+				</star:Tax>
+			</star:PartsInvoiceLine>
+			<star:PartsInvoiceLine>
+				<star:LineNumberString>1</star:LineNumberString>
+				<star:PartsProductItem>
+					<star:PartItemDescription>Jacket</star:PartItemDescription>
+					<star:ItemIdentificationGroup>
+						<star:ItemIdentification>
+							<star:ItemID>58336</star:ItemID>
+						</star:ItemIdentification>
+					</star:ItemIdentificationGroup>
+				</star:PartsProductItem>
+				<star:OrderQuantity unitCode="ea">25</star:OrderQuantity>
+				<star:Price>
+					<star:PriceCode>Sold</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">75</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Price>
+					<star:PriceCode>Suggested Retail Price</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">100</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Price>
+					<star:PriceCode>Cost</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">50</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Charges>
+					<star:DeliveryChargeAmount currencyID="CAD">0</star:DeliveryChargeAmount>
+					<star:HandlingRestockChargeAmount currencyID="CAD"
+                        >0</star:HandlingRestockChargeAmount>
+					<star:ServiceFreightChargeAmount currencyID="CAD"
+                        >0</star:ServiceFreightChargeAmount>
+				</star:Charges>
+				<star:Tax>
+					<star:TaxTypeCode>Sales</star:TaxTypeCode>
+					<star:TaxAmount currencyID="CAD">3.75</star:TaxAmount>
+					<star:TaxRatePercent>0.05000000</star:TaxRatePercent>
+					<star:TotalTaxableAmount currencyID="CAD">75</star:TotalTaxableAmount>
+				</star:Tax>
+			</star:PartsInvoiceLine>
+		</star:PartsInvoice>
+		<star:PartsInvoice>
+			<star:PartsInvoiceHeader>
+				<star:DocumentIdentificationGroup>
+					<star:DocumentIdentification>
+						<star:DocumentID>ProcessPartsInvoice</star:DocumentID>
+						<star:AgencyRoleCode>Dealer</star:AgencyRoleCode>
+					</star:DocumentIdentification>
+				</star:DocumentIdentificationGroup>
+				<star:TransactionTypeCode>Initial</star:TransactionTypeCode>
+				<star:ReferenceNumberString>59847</star:ReferenceNumberString>
+				<star:TotalPartPiecesNumeric>1</star:TotalPartPiecesNumeric>
+				<star:SubtotalBeforeDiscountsAmount currencyID="CAD"
+                    >100</star:SubtotalBeforeDiscountsAmount>
+				<star:TotalDiscountAmount currencyID="CAD">25</star:TotalDiscountAmount>
+				<star:SubtotalIncludingDiscount currencyID="CAD">75</star:SubtotalIncludingDiscount>
+				<star:Charges>
+					<star:DeliveryChargeAmount currencyID="CAD">0</star:DeliveryChargeAmount>
+					<star:HandlingRestockChargeAmount currencyID="CAD"
+                        >0</star:HandlingRestockChargeAmount>
+					<star:ServiceFreightChargeAmount currencyID="CAD"
+                        >0</star:ServiceFreightChargeAmount>
+				</star:Charges>
+				<star:Tax>
+					<star:TaxTypeCode>Total</star:TaxTypeCode>
+					<star:TaxAmount currencyID="CAD">3.75</star:TaxAmount>
+					<star:TaxRatePercent>0.05000000</star:TaxRatePercent>
+					<star:TotalTaxableAmount currencyID="CAD">75</star:TotalTaxableAmount>
+				</star:Tax>
+				<star:TotalAmount currencyID="CAD">78.75</star:TotalAmount>
+				<star:ProcessCode>Retail</star:ProcessCode>
+				<star:SoldToParty>
+					<star:SpecifiedOrganization>
+						<star:CompanyName>Super Snow toys</star:CompanyName>
+						<star:PrimaryContact>
+							<star:TypeCode>Fleet Manager</star:TypeCode>
+							<star:SpecifiedPerson>
+								<star:GivenName>Tim</star:GivenName>
+								<star:MiddleName>Roberts</star:MiddleName>
+								<star:FamilyName>McCoy</star:FamilyName>
+								<star:TelephoneCommunication>
+									<star:ChannelCode>telephone</star:ChannelCode>
+									<star:LocalNumber>5038799990</star:LocalNumber>
+									<star:AreaNumberCode>503</star:AreaNumberCode>
+								</star:TelephoneCommunication>
+								<star:FaxCommunication>
+									<star:ChannelCode>fax</star:ChannelCode>
+									<star:LocalNumber>5038799991</star:LocalNumber>
+									<star:AreaNumberCode>503</star:AreaNumberCode>
+								</star:FaxCommunication>
+								<star:URICommunication>
+									<star:URIID>tr@supersnowtoys.com</star:URIID>
+									<star:ChannelCode>email</star:ChannelCode>
+								</star:URICommunication>
+							</star:SpecifiedPerson>
+							<star:PostalAddress>
+								<star:LineOne>1700 Lesley Blvd</star:LineOne>
+								<star:LineTwo>Apartment B</star:LineTwo>
+								<star:CityName>Westfield</star:CityName>
+								<star:CountryID>US</star:CountryID>
+								<star:Postcode>88980</star:Postcode>
+								<star:StateOrProvinceCountrySub-DivisionID>WA</star:StateOrProvinceCountrySub-DivisionID>
+							</star:PostalAddress>
+						</star:PrimaryContact>
+					</star:SpecifiedOrganization>
+				</star:SoldToParty>
+				<star:DealerOrderNumberString>78945663</star:DealerOrderNumberString>
+				<star:PartsOrderReceivedDateTime>2017-03-14T13:37:37Z</star:PartsOrderReceivedDateTime>
+				<star:SoldByParty>
+					<star:SpecifiedPerson>
+						<star:ID>56789123569</star:ID>
+						<star:GivenName>Bob</star:GivenName>
+						<star:FamilyName>Thompson</star:FamilyName>
+					</star:SpecifiedPerson>
+				</star:SoldByParty>
+			</star:PartsInvoiceHeader>
+			<star:PartsInvoiceLine>
+				<star:LineNumberString>1</star:LineNumberString>
+				<star:PartsProductItem>
+					<star:PartItemDescription>Jacket</star:PartItemDescription>
+					<star:ItemIdentificationGroup>
+						<star:ItemIdentification>
+							<star:ItemID>58336</star:ItemID>
+						</star:ItemIdentification>
+					</star:ItemIdentificationGroup>
+				</star:PartsProductItem>
+				<star:OrderQuantity unitCode="ea">25</star:OrderQuantity>
+				<star:Price>
+					<star:PriceCode>Sold</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">75</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Price>
+					<star:PriceCode>Suggested Retail Price</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">100</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Price>
+					<star:PriceCode>Cost</star:PriceCode>
+					<star:ChargeAmount currencyID="CAD">50</star:ChargeAmount>
+					<star:PriceDescription>FIFO</star:PriceDescription>
+				</star:Price>
+				<star:Charges>
+					<star:DeliveryChargeAmount currencyID="CAD">0</star:DeliveryChargeAmount>
+					<star:HandlingRestockChargeAmount currencyID="CAD"
+                        >0</star:HandlingRestockChargeAmount>
+					<star:ServiceFreightChargeAmount currencyID="CAD"
+                        >0</star:ServiceFreightChargeAmount>
+				</star:Charges>
+				<star:Tax>
+					<star:TaxTypeCode>Sales</star:TaxTypeCode>
+					<star:TaxAmount currencyID="CAD">3.75</star:TaxAmount>
+					<star:TaxRatePercent>0.05000000</star:TaxRatePercent>
+					<star:TotalTaxableAmount currencyID="CAD">75</star:TotalTaxableAmount>
+				</star:Tax>
+			</star:PartsInvoiceLine>
+		</star:PartsInvoice>
+	</star:ProcessPartsInvoiceDataArea>
+</star:ProcessPartsInvoice>
